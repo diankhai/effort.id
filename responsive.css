@@ -1,0 +1,187 @@
+/* Untuk Tablet */
+@media all and (max-width: 1270px) {
+
+  body{
+    margin: 0;
+  }
+
+  .header-list li{
+    float:left;
+    padding: 35px 20px;
+    font-size: 20px;
+  }
+
+  .menu-icon{
+    display: none;
+  }
+
+  .container-top{
+    width:100%;
+    padding:0;
+  }
+
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  
+  .heading h2 {
+    font-size: 20px;
+  }
+
+  .wrapper{
+    width:80%;
+  }
+  .container{
+    margin-bottom:50px;
+  }
+  .gambar {
+    width: 100%; 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    padding-top:20px;
+    margin:auto;
+  }
+
+  .foto{
+    margin-bottom:50px;
+  }
+  .foto h2{
+    margin-bottom: 0;
+  }
+  .foto a{
+    margin:10px auto;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  body{
+    margin: 0;
+  }
+
+  .header{
+    height: 60px;
+  }
+
+  .header-logo {
+    float: left;
+    font-size: 30px;
+    padding: 15px 20px;
+  }
+
+  .header-list{
+    display:none;
+  }
+  .header span{
+    display:block;
+  }
+
+  .menu-icon:hover{
+    color:#686868;
+  }
+
+  .top-wrapper{
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+
+  .container-top{
+    width:100%;
+    padding:0;
+  }
+
+  .container-top h1 {
+    font-size: 50px;
+    color: #fff;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+  }
+  
+  .container-top p {
+  
+      font-size: 15px;
+      color: #fff;
+      margin-bottom: 3px;
+      margin-top: 0;
+  }
+
+  .wrapper{
+    padding:10px;
+  }
+  
+  .lesson-wrapper h1 {
+    margin-top:50px;
+    font-size: 30px;
+  }
+
+  .content-lesson{
+    /* clear:both; */
+    padding:10px;
+  }
+
+  .content-lesson p{
+    font-size:20px;
+    font-weight: bold;
+  }
+  .content-lesson h3{
+    font-size:18px;
+    font-weight: normal;
+  }
+
+  .gambar {
+    width: 100%; 
+    display: grid; 
+    grid-template-columns: 1fr; 
+    padding-top:20px;
+    margin:auto;
+  }
+
+  .btn{
+    font-size:12px;
+    background-color:white;
+    border-color: white;
+    color:black;
+    padding:0;
+    margin-top:30px;
+    box-shadow: none;
+  }
+
+  .foto{
+    margin:0;
+  }
+  
+  .foto a{
+    font-size: 12px;
+  }
+
+  .footer{
+    padding-top:20px;
+  }
+  
+  .footer-content h3{
+    font-size: 20px;
+    line-height: 1rem;
+    margin-top: 10px;
+  }
+
+  .footer-content p{
+    max-width: 300px;
+    font-size: 10px;
+    opacity: 0.8;
+    line-height: 10px;
+  }
+
+  .socials{
+    padding-bottom: 50px;
+  }
+
+  .socialss {
+    margin:0 auto;
+    padding:20px;
+  }
+
+  .socialss a i{
+    font-size: 12px;
+  }
+
+}
